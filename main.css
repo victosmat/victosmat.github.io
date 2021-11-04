@@ -6,7 +6,7 @@ body {
 }
 
 .box {
-    width: 300px;
+    width: 800px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,8 +29,8 @@ body {
     background: #d63031;
     width: 100px;
     height: 160px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
 
 .heart:before {
@@ -67,4 +67,12 @@ body {
     background-color: pink;
     border-radius: 30%;
     height: 100px;
+}
+
+.victo {
+    font-size: 30px;
+    image-rendering: crisp-edges;
+    border-image-outset: 0pt;
+    border-image-width: 30px;
+    padding-left: 30%;
 }
